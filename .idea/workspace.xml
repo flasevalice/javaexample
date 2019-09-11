@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eda99af-a84b-464e-a403-f336e24b7227" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -379,28 +379,17 @@
       <option name="project" value="LOCAL" />
       <updated>1568213201653</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Устойчивость теста">
+      <created>1568218195624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568218195624</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_myFirstTest - 2019.09.11 at 12h 46m 28s.xml">
-      <configuration name="MyFirstTest.myFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_myFirstTest - 2019.09.11 at 12h 47m 15s.xml">
-      <configuration name="MyFirstTest.myFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_myFirstTest - 2019.09.11 at 12h 47m 48s.xml">
-      <configuration name="MyFirstTest.myFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_myFirstTest - 2019.09.11 at 15h 02m 20s.xml">
-      <configuration name="MyFirstTest.myFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 39m 05s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 39m 26s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 41m 00s.xml">
       <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
     </history-entry>
@@ -411,6 +400,24 @@
       <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 44m 16s.xml">
+      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 06m 36s.xml">
+      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 07m 28s.xml">
+      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 08m 01s.xml">
+      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 08m 33s.xml">
+      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 09m 10s.xml">
+      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 09m 29s.xml">
       <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -425,7 +432,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
@@ -462,7 +468,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="конфигурация" />
     <MESSAGE value="Создание сценарию для логина в панель администрирования учебного приложения http://localhost/litecart/admin/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание сценарию для логина в панель администрирования учебного приложения http://localhost/litecart/admin/" />
+    <MESSAGE value="Устойчивость теста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Устойчивость теста" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -603,7 +610,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

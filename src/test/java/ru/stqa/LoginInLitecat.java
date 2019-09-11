@@ -33,9 +33,6 @@ public class LoginInLitecat {
             System.err.print("Error test");
             stop();
         }
-
-
-
     }
 
     @AfterEach
