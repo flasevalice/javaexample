@@ -23,11 +23,18 @@ public class LoginInLitecat {
 
     @Test
     public void loginInLitecat() {
-        driver.get("http://localhost/litecart/admin/");
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("username")))).sendKeys("admin");
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("password")))).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
-        wait.until(titleIs("My Store"));
+        try {
+            driver.get("http://localhost/litecart/admin/");
+            wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("username")))).sendKeys("admin");
+            wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("password")))).sendKeys("admin");
+            driver.findElement(By.name("login")).click();
+            wait.until(titleIs("My Store"));
+        } catch (Exception e) {
+            System.err.print("Error test");
+            stop();
+        }
+
+
 
     }
 
