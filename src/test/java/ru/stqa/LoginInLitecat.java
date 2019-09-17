@@ -25,6 +25,7 @@ public class LoginInLitecat {
     public void loginInLitecat() {
         try {
             driver.get("http://localhost/litecart/admin/");
+
             wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("username")))).sendKeys("admin");
             wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("password")))).sendKeys("admin");
             driver.findElement(By.name("login")).click();
