@@ -12,8 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
 public class LoginInLitecat {
-    private WebDriver driver;
-    private WebDriverWait wait;
+    public WebDriver driver;
+    public WebDriverWait wait;
 
     @BeforeEach
     public void start() {
@@ -21,7 +21,7 @@ public class LoginInLitecat {
         wait = new WebDriverWait(driver, 10);
     }
 
-    @Test
+    @BeforeEach
     public void loginInLitecat() {
         try {
             driver.get("http://localhost/litecart/admin/");

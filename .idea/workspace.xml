@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eda99af-a84b-464e-a403-f336e24b7227" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,59 +15,73 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/MyFirstTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpectedConditions.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/apache-maven-3.6.1/repo/org/seleniumhq/selenium/selenium-support/3.0.0-beta3/selenium-support-3.0.0-beta3.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectionUtils.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/apache-maven-3.6.1/repo/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="630" selection-start-line="630" selection-end-line="630" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginInLitecat.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.70791245">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/MyFirstTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="25" column="51" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="51" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LoginInLitecat.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="44" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Task7.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-99">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="LoginInLitecat.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,6 +93,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>chrome</find>
+      <find>fi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java" />
       </list>
     </option>
   </component>
@@ -205,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginInLitecat.loginInLitecat">
+  <component name="RunManager" selected="JUnit.Task7.checkRegistry">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -266,6 +284,52 @@
       <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Task7.checkRegistry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.Task7" />
+      <option name="METHOD_NAME" value="checkRegistry" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Task7.loginInLitecat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.Task7" />
+      <option name="METHOD_NAME" value="loginInLitecat" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -346,10 +410,14 @@
       <item itemvalue="JUnit.MyFirstTest.myFirstTest" />
       <item itemvalue="JUnit.MyFirstTest" />
       <item itemvalue="JUnit.LoginInLitecat.loginInLitecat" />
+      <item itemvalue="JUnit.Task7.loginInLitecat" />
+      <item itemvalue="JUnit.Task7.checkRegistry" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task7.checkRegistry" />
         <item itemvalue="JUnit.LoginInLitecat.loginInLitecat" />
+        <item itemvalue="JUnit.Task7.loginInLitecat" />
         <item itemvalue="JUnit.MyFirstTest" />
       </list>
     </recent_temporary>
@@ -386,39 +454,53 @@
       <option name="project" value="LOCAL" />
       <updated>1568218195624</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="лишние строки">
+      <created>1568218260738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568218260738</updated>
+    </task>
+    <task id="LOCAL-00005" summary="лишние строки">
+      <created>1568730527965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568730527965</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 41m 00s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 05m 29s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 41m 25s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 05m 51s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 43m 10s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 06m 25s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 17h 44m 16s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 06m 44s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 06m 36s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 14m 35s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 07m 28s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 15m 08s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 08m 01s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 15m 30s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 08m 33s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 17m 17s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 09m 10s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.20 at 12h 19m 43s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInLitecat_loginInLitecat - 2019.09.11 at 19h 09m 29s.xml">
-      <configuration name="LoginInLitecat.loginInLitecat" configurationId="JUnit" />
+    <history-entry file="Task7_checkRegistry - 2019.09.22 at 18h 47m 52s.xml">
+      <configuration name="Task7.checkRegistry" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -431,28 +513,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1380" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3267974" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.19669509" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4047619" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32900432" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.1621212" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22058824" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.045454547" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36688313" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +551,8 @@
     <MESSAGE value="конфигурация" />
     <MESSAGE value="Создание сценарию для логина в панель администрирования учебного приложения http://localhost/litecart/admin/" />
     <MESSAGE value="Устойчивость теста" />
-    <option name="LAST_COMMIT_MESSAGE" value="Устойчивость теста" />
+    <MESSAGE value="лишние строки" />
+    <option name="LAST_COMMIT_MESSAGE" value="лишние строки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,31 +570,61 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/tools/apache-maven-3.6.1/repo/org/seleniumhq/selenium/selenium-support/3.0.0-beta3/selenium-support-3.0.0-beta3.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>15</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -566,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/apache-maven-3.6.1/repo/org/seleniumhq/selenium/selenium-support/3.0.0-beta3/selenium-support-3.0.0-beta3.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -600,17 +706,34 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="51" />
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/tools/apache-maven-3.6.1/repo/org/seleniumhq/selenium/selenium-support/3.0.0-beta3/selenium-support-3.0.0-beta3.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="360">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
