@@ -21,11 +21,11 @@ public class LoginInLitecat {
         wait = new WebDriverWait(driver, 10);
     }
 
-    @BeforeEach
-    public void loginInLitecat() {
+    //@BeforeEach
+    public void loginInLitecat(String url) {
         try {
-            driver.get("http://localhost/litecart/admin/");
-
+            //driver.get("http://localhost/litecart/admin/");
+            driver.get(url);
             wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("username")))).sendKeys("admin");
             wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("password")))).sendKeys("admin");
             driver.findElement(By.name("login")).click();
