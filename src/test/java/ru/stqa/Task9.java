@@ -42,16 +42,27 @@ public class Task9 extends LoginInLitecat {
         Assert.assertTrue(sortedList.equals(obtainedList));
     }
 
-    void checkZones(List<String> links) {
+    void checkZonesForCountries(List<String> links) {
 
         for (String link : links) {
             System.out.println("Текущая страница: "+ link);
             driver.get(link);
-            //  for (int i = 2; i < links.size(); i++) {
-            List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]/select/option[@selected='selected']"));
-            //List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]/input[@type='hidden']"));
-            //List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]/select"));
-            //List<WebElement> zone = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[3]/select/option[@selected='selected']"));
+            List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]"));
+            for (int i=0;i<zone.size();i++) {
+                if (zone.get(i).getText().equals("")) {
+                    zone.remove(i);
+                }
+            }
+            checkSort(zone);
+        }
+    }
+
+    void checkZonesForGeoZones(List<String> links) {
+
+        for (String link : links) {
+            System.out.println("Текущая страница: "+ link);
+            driver.get(link);
+            List<WebElement> zone = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[3]/select/option[@selected='selected']"));
             checkSort(zone);
         }
     }
@@ -68,7 +79,6 @@ public class Task9 extends LoginInLitecat {
 
         //список элементов зон
         List<WebElement> zones = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[6]"));
-        //List<WebElement> zones = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[6]"));
         List<String> links = new ArrayList<String>();
 
         for (int i = 0; i < zones.size(); i++) {
@@ -78,7 +88,21 @@ public class Task9 extends LoginInLitecat {
                 System.out.println(link);
             }
         }
-        checkZones(links);
+        checkZonesForCountries(links);
+    }
+
+    @Test
+    public void checkGeoZones() {
+        loginInLitecat("http://localhost/litecart/admin/");
+        driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
+
+        List<WebElement> countries = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[3]/a"));
+        List<String> links = new ArrayList<String>();
+        for (int i = 0; i < countries.size(); i++) {
+            String link = countries.get(i).getAttribute("href");
+            links.add(link);
+        }
+        checkZonesForGeoZones(links);
     }
 
 }
