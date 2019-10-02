@@ -43,9 +43,15 @@ public class Task9 extends LoginInLitecat {
     }
 
     void checkZones(List<String> links) {
+
         for (String link : links) {
+            System.out.println("Текущая страница: "+ link);
             driver.get(link);
-            List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]"));
+            //  for (int i = 2; i < links.size(); i++) {
+            List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]/select/option[@selected='selected']"));
+            //List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]/input[@type='hidden']"));
+            //List<WebElement> zone = driver.findElements(By.xpath("//*[@id='table-zones']/tbody/tr/td[3]/select"));
+            //List<WebElement> zone = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[3]/select/option[@selected='selected']"));
             checkSort(zone);
         }
     }
@@ -62,6 +68,7 @@ public class Task9 extends LoginInLitecat {
 
         //список элементов зон
         List<WebElement> zones = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[6]"));
+        //List<WebElement> zones = driver.findElements(By.xpath("//table[contains(@class, 'dataTable')]/tbody/tr/td[6]"));
         List<String> links = new ArrayList<String>();
 
         for (int i = 0; i < zones.size(); i++) {
@@ -70,9 +77,8 @@ public class Task9 extends LoginInLitecat {
                 links.add(link);
                 System.out.println(link);
             }
-
         }
-
+        checkZones(links);
     }
-   // checkZones(links);
+
 }
