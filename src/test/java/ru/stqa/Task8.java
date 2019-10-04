@@ -18,7 +18,8 @@ public class Task8 extends LoginInLitecat {
         String[] boxType = {"box-most-popular", "box-campaigns", "box-latest-products"};
         for (String box : boxType) {
             System.out.println("Категория товаров: " + box.replace("-"," "));
-            List<WebElement> locator = driver.findElements(By.xpath(".//div[@class='middle']//div[@id='" + box + "']//li[@class]"));
+            List<WebElement> locator = driver.findElements(By.xpath("//*[@id='" + box + "']/div/ul/li[contains(@class, 'product')]"));
+
             for (WebElement e : locator) {
                 if (e.findElements(By.className("sticker")).size() == 1) {
                     System.out.println("стикер один");
