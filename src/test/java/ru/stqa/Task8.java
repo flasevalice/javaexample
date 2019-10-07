@@ -15,10 +15,7 @@ public class Task8 extends LoginInLitecat {
     public void checkStickers() {
         driver.get("http://localhost/litecart/en/");
 
-        String[] boxType = {"box-most-popular", "box-campaigns", "box-latest-products"};
-        for (String box : boxType) {
-            System.out.println("Категория товаров: " + box.replace("-"," "));
-            List<WebElement> locator = driver.findElements(By.xpath("//*[@id='" + box + "']/div/ul/li[contains(@class, 'product')]"));
+            List<WebElement> locator = driver.findElements(By.className("product"));
 
             for (WebElement e : locator) {
                 if (e.findElements(By.className("sticker")).size() == 1) {
@@ -27,7 +24,6 @@ public class Task8 extends LoginInLitecat {
                     System.out.println("стикер не является единственным");
                 }
             }
-        }
     }
 }
 
