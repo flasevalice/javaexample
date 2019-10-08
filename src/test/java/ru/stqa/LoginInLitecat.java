@@ -18,6 +18,8 @@ public class LoginInLitecat {
     @BeforeEach
     public void start() {
         driver = new ChromeDriver();
+        //driver = new FirefoxDriver();
+        //driver = new InternetExplorerDriver();
         wait = new WebDriverWait(driver, 10);
     }
 
