@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0eda99af-a84b-464e-a403-f336e24b7227" name="Default" comment="Задание 10.&#10;Исправлен локатор.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/Task10.java" afterDir="false" />
+    <list default="true" id="0eda99af-a84b-464e-a403-f336e24b7227" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +13,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/selenium_java$Task11_createAccount.ic" NAME="Task11.createAccount Coverage Results" MODIFIED="1570695674203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.stqa.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.21419598">
+    <splitter split-orientation="horizontal" split-proportion="0.2793177">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
@@ -45,8 +49,8 @@
           <file leaf-file-name="Task9.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task9.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="724">
-                  <caret line="71" column="59" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="59" />
+                <state relative-caret-position="22">
+                  <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1127#1135#0" expanded="true" />
@@ -62,14 +66,37 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Task10.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Task10.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task10.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="2" />
+                <state relative-caret-position="147">
+                  <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="52" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Task11.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="621">
+                  <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2910#2911#0" expanded="true" />
+                    <element signature="e#2986#2987#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Random.java" pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Random.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="274" column="29" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -99,8 +126,8 @@
       <find>links</find>
       <find>addSorting(StringUtils.isEmpty(</find>
       <find>elementList</find>
-      <find>fi</find>
       <find>chrome</find>
+      <find>fi</find>
       <find>checkSort</find>
     </findStrings>
     <replaceStrings>
@@ -123,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/LoginInLitecat.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/Task10.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java" />
       </list>
     </option>
   </component>
@@ -239,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Task10.checkPage">
+  <component name="RunManager" selected="JUnit.Task11.createAccount">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -273,6 +301,75 @@
       <option name="PACKAGE_NAME" value="ru.stqa" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.Task10" />
       <option name="METHOD_NAME" value="checkPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Task11.createAccount" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="selenium-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.Task11" />
+      <option name="METHOD_NAME" value="createAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Task11.createAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.Task11" />
+      <option name="METHOD_NAME" value="createAccount(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Task11.createAccount" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="selenium-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.Task11" />
+      <option name="METHOD_NAME" value="createAccount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
       <option name="PARAMETERS" value="" />
@@ -320,52 +417,6 @@
       <option name="MAIN_CLASS_NAME" value="ru.stqa.Task9" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Task9.checkCountries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.Task9" />
-      <option name="METHOD_NAME" value="checkCountries" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Task9.checkGeoZones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.Task9" />
-      <option name="METHOD_NAME" value="checkGeoZones" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea -Dwebdriver.chrome.driver=D:/tools/chromedriver.exe" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
@@ -450,19 +501,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MyFirstTest.myFirstTest" />
-      <item itemvalue="JUnit.Task9.checkCountries" />
-      <item itemvalue="JUnit.Task9.checkGeoZones" />
       <item itemvalue="JUnit.Task9" />
       <item itemvalue="JUnit.Task8.checkStickers" />
       <item itemvalue="JUnit.Task10.checkPage" />
+      <item itemvalue="JUnit.Task11.createAccount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task11.createAccount" />
+        <item itemvalue="JUnit.Task11.createAccount" />
         <item itemvalue="JUnit.Task10.checkPage" />
         <item itemvalue="JUnit.Task8.checkStickers" />
         <item itemvalue="JUnit.Task9" />
-        <item itemvalue="JUnit.Task9.checkGeoZones" />
-        <item itemvalue="JUnit.Task9.checkCountries" />
       </list>
     </recent_temporary>
   </component>
@@ -561,39 +611,46 @@
       <option name="project" value="LOCAL" />
       <updated>1570437635864</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Задание 10. Проверить, что открывается правильная страница товара&#10;Сделайте сценарий, который проверяет, что при клике на товар открывается правильная страница товара в учебном приложении litecart.&#10;&#10;Более точно, нужно открыть главную страницу, выбрать первый товар в блоке Campaigns и проверить следующее:&#10;&#10;а) на главной странице и на странице товара совпадает текст названия товара&#10;б) на главной странице и на странице товара совпадают цены (обычная и акционная)&#10;в) обычная цена зачёркнутая и серая (можно считать, что &quot;серый&quot; цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)&#10;г) акционная жирная и красная (можно считать, что &quot;красный&quot; цвет это такой, у которого в RGBa представлении каналы G и B имеют нулевые значения)&#10;(цвета надо проверить на каждой странице независимо, при этом цвета на разных страницах могут не совпадать)&#10;д) акционная цена крупнее, чем обычная (это тоже надо проверить на каждой странице независимо)&#10;&#10;Необходимо убедиться, что тесты работают в разных браузерах, желательно проверить во всех трёх ключевых браузерах (Chrome, Firefox, IE).">
+      <created>1570528808374</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570528808384</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Task10_checkPage - 2019.10.08 at 12h 29m 42s.xml">
-      <configuration name="Task10.checkPage" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 27m 22s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage - 2019.10.08 at 12h 33m 25s.xml">
-      <configuration name="Task10.checkPage" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 37m 16s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage1 - 2019.10.08 at 12h 34m 14s.xml">
-      <configuration name="Task10.checkPage1" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 37m 43s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage1 - 2019.10.08 at 12h 34m 47s.xml">
-      <configuration name="Task10.checkPage1" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 39m 01s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage1 - 2019.10.08 at 12h 51m 14s.xml">
-      <configuration name="Task10.checkPage1" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 54m 48s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage1 - 2019.10.08 at 12h 51m 44s.xml">
-      <configuration name="Task10.checkPage1" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 55m 00s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage - 2019.10.08 at 12h 52m 16s.xml">
-      <configuration name="Task10.checkPage" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 55m 16s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage1 - 2019.10.08 at 12h 52m 29s.xml">
-      <configuration name="Task10.checkPage1" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 55m 27s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage - 2019.10.08 at 12h 53m 38s.xml">
-      <configuration name="Task10.checkPage" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 55m 39s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task10_checkPage - 2019.10.08 at 12h 55m 04s.xml">
-      <configuration name="Task10.checkPage" configurationId="JUnit" />
+    <history-entry file="Task11_createAccount - 2019.10.10 at 11h 56m 51s.xml">
+      <configuration name="Task11.createAccount" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -610,24 +667,25 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.22619048" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.1482684" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.1621212" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3625541" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.17965367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44805196" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.27056277" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21515152" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3538961" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.59090906" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -649,7 +707,8 @@
     <MESSAGE value="Задание 8. Сделайте сценарий, проверяющий наличие стикеров у товаров&#10;Сделайте сценарий, проверяющий наличие стикеров у всех товаров в учебном приложении litecart на главной странице. Стикеры -- это полоски в левом верхнем углу изображения товара, на которых написано New или Sale или что-нибудь другое. Сценарий должен проверять, что у каждого товара имеется ровно один стикер." />
     <MESSAGE value="Задание 9. Сделайте сценарии, которые проверяют сортировку стран и геозон (штатов) в учебном приложении litecart.&#10;&#10;1) на странице http://localhost/litecart/admin/?app=countries&amp;doc=countries&#10;а) проверить, что страны расположены в алфавитном порядке&#10;б) для тех стран, у которых количество зон отлично от нуля -- открыть страницу этой страны и там проверить, что зоны расположены в алфавитном порядке&#10;&#10;2) на странице http://localhost/litecart/admin/?app=geo_zones&amp;doc=geo_zones&#10;зайти в каждую из стран и проверить, что зоны расположены в алфавитном порядке" />
     <MESSAGE value="Задание 8.&#10;Исправлен локатор." />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 8.&#10;Исправлен локатор." />
+    <MESSAGE value="Задание 10. Проверить, что открывается правильная страница товара&#10;Сделайте сценарий, который проверяет, что при клике на товар открывается правильная страница товара в учебном приложении litecart.&#10;&#10;Более точно, нужно открыть главную страницу, выбрать первый товар в блоке Campaigns и проверить следующее:&#10;&#10;а) на главной странице и на странице товара совпадает текст названия товара&#10;б) на главной странице и на странице товара совпадают цены (обычная и акционная)&#10;в) обычная цена зачёркнутая и серая (можно считать, что &quot;серый&quot; цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)&#10;г) акционная жирная и красная (можно считать, что &quot;красный&quot; цвет это такой, у которого в RGBa представлении каналы G и B имеют нулевые значения)&#10;(цвета надо проверить на каждой странице независимо, при этом цвета на разных страницах могут не совпадать)&#10;д) акционная цена крупнее, чем обычная (это тоже надо проверить на каждой странице независимо)&#10;&#10;Необходимо убедиться, что тесты работают в разных браузерах, желательно проверить во всех трёх ключевых браузерах (Chrome, Firefox, IE)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 10. Проверить, что открывается правильная страница товара&#10;Сделайте сценарий, который проверяет, что при клике на товар открывается правильная страница товара в учебном приложении litecart.&#10;&#10;Более точно, нужно открыть главную страницу, выбрать первый товар в блоке Campaigns и проверить следующее:&#10;&#10;а) на главной странице и на странице товара совпадает текст названия товара&#10;б) на главной странице и на странице товара совпадают цены (обычная и акционная)&#10;в) обычная цена зачёркнутая и серая (можно считать, что &quot;серый&quot; цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)&#10;г) акционная жирная и красная (можно считать, что &quot;красный&quot; цвет это такой, у которого в RGBa представлении каналы G и B имеют нулевые значения)&#10;(цвета надо проверить на каждой странице независимо, при этом цвета на разных страницах могут не совпадать)&#10;д) акционная цена крупнее, чем обычная (это тоже надо проверить на каждой странице независимо)&#10;&#10;Необходимо убедиться, что тесты работают в разных браузерах, желательно проверить во всех трёх ключевых браузерах (Chrome, Firefox, IE)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -792,59 +851,84 @@
           <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="149" />
+      <option name="time" value="187" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>Assert.assertTrue(&quot;не совпадает текст названия товара&quot;, goodName.equals(goodNameCard));</expression-string>
+        <expression-string>wait.until(ExpectedConditions.elementToBeClickable( driver.findElement(By.xpath(&quot;//*[@id='create-account']/div/form/table/tbody/tr[5]/td[2]/select&quot;))));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Assert.assertTrue(&quot;не совпадает текст названия товара&quot;, goodName.getText().equals(goodNameCard));</expression-string>
+        <expression-string>wait.until(ExpectedConditions.visibilityOf( driver.findElement(By.xpath(&quot;//*[@id='create-account']/div/form/table/tbody/tr[5]/td[2]/select&quot;))));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.getTitle().startsWith(goodNameCard);</expression-string>
+        <expression-string>wait.until(ExpectedConditions.visibilityOf( driver.findElement(By.name(&quot;zone_code&quot;))));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;//*[@id='box-product']&quot;)).findElement(By.className(&quot;title&quot;)).getAttribute(&quot;textContent&quot;);</expression-string>
+        <expression-string>wait.until(ExpectedConditions.elementToBeClickable( driver.findElement(By.name(&quot;zone_code&quot;))));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;//*[@id='box-product']&quot;)).findElement(By.className(&quot;name&quot;)).getAttribute(&quot;textContent&quot;);</expression-string>
+        <expression-string>wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name(&quot;zone_code&quot;))));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cardOfGood.findElement(By.className(&quot;name&quot;)).getAttribute(&quot;textContent&quot;);</expression-string>
+        <expression-string>wait.until(ExpectedConditions.elementSelectionStateToBe(By.name(&quot;zone_code&quot;), true));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>firstGoodInBoxCampaigns.findElement(By.className(&quot;name&quot;)).getAttribute(&quot;textContent&quot;);</expression-string>
+        <expression-string>wait.until(ExpectedConditions.elementToBeClickable(By.name(&quot;zone_code&quot;)));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>firstGoodInBoxCampaigns.findElement(By.className(&quot;name&quot;)).getAttribute(&quot;firstGoodInBoxCampaigns&quot;);</expression-string>
+        <expression-string>((JavascriptExecutor) driver).executeScript(&quot;arguments[0].selectedIndex=1; arguments[0].dispatchEvent(new Event('change'))&quot;, driver.findElements(By.name(&quot;country_code&quot;)));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.getTitle().startsWith(goodName.getAttribute(&quot;textContent&quot;));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.getTitle().startsWith(goodName.getAttribute(&quot;textContent&quot;).value);</expression-string>
+        <expression-string>((JavascriptExecutor) driver).executeScript(&quot;arguments[0].selectedIndex=1; arguments[0].dispatchEvent(new Event('change'))&quot;, driver.findElement(By.name(&quot;country_code&quot;)));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1026,10 +1110,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="71" column="59" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="59" />
+        <state relative-caret-position="22">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1127#1135#0" expanded="true" />
@@ -1050,19 +1151,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="153">
+          <caret line="274" column="29" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task10.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/Task11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="621">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2910#2911#0" expanded="true" />
+            <element signature="e#2986#2987#0" expanded="true" />
           </folding>
         </state>
       </provider>
