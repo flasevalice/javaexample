@@ -21,7 +21,21 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 Необходимо убедиться, что тесты работают в разных браузерах, желательно проверить во всех трёх ключевых браузерах (Chrome, Firefox, IE).
 */
-public class Task10 extends LoginInLitecat{
+public class Task10 extends LoginInLitecat {
+
+    public void isGrey(String color) {
+        String[] isGrey = color.replaceAll("[a-zA-Z()]", "").split(", ");
+        Assert.assertEquals("Цвет не совпадает", isGrey[0], isGrey[1]);
+        Assert.assertEquals("Цвет не совпадает", isGrey[0], isGrey[2]);
+        Assert.assertEquals("Цвет не совпадает", isGrey[1], isGrey[2]);
+    }
+
+    public void isRed(String color) {
+        String[] isRed = color.replaceAll("[a-zA-Z()]", "").split(", ");
+        Assert.assertTrue("Цвет не совпадает", Integer.parseInt(isRed[0]) != 0);
+        Assert.assertTrue("Цвет не совпадает", Integer.parseInt(isRed[1]) == 0);
+        Assert.assertTrue("Цвет не совпадает", Integer.parseInt(isRed[2]) == 0);
+    }
 
     @Test
     public void checkPage() {
@@ -36,29 +50,28 @@ public class Task10 extends LoginInLitecat{
         //скидочная цена товара на главной
         String goodCampaignPrice = firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getAttribute("textContent");
 
-        String  goodRegularPriceSize = firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getCssValue("font-size").replace("px","");
-        String goodCampaignPriceSize = firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getCssValue("font-size").replace("px","");
+        String goodRegularPriceSize = firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getCssValue("font-size").replace("px", "");
+        String goodCampaignPriceSize = firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getCssValue("font-size").replace("px", "");
         //в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
-        if(!(driver instanceof FirefoxDriver)) {
-            Assert.assertTrue("обычная цена не зачеркнутая и не серая для страницы", (firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getTagName().equals("s")
-                    && firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getCssValue("color").equals("rgba(119, 119, 119, 1)")));
+        if (!(driver instanceof FirefoxDriver)) {
+            Assert.assertTrue("обычная цена не зачеркнутая", firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getTagName().equals("s"));
+            isGrey(firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getCssValue("color"));
         } else {
-            Assert.assertTrue("обычная цена не зачеркнутая и не серая для страницы", (firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getTagName().equals("s")
-                    && firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getCssValue("color").equals("rgba(119, 119, 119)")));
+            Assert.assertTrue("обычная цена не зачеркнутая и не серая для страницы", firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getTagName().equals("s"));
+            isGrey(firstGoodInBoxCampaigns.findElement(By.className("regular-price")).getCssValue("color"));
         }
 
         // г) акционная жирная и красная (можно считать, что "красный" цвет это такой, у которого в RGBa представлении каналы G и B имеют нулевые значения)
         //(цвета надо проверить на каждой странице независимо, при этом цвета на разных страницах могут не совпадать)
-        if(!(driver instanceof FirefoxDriver)) {
-            Assert.assertTrue("акционная цена не жирная и не красная для страницы", (firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getTagName().equals("strong")
-                    && firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getCssValue("color").equals("rgba(204, 0, 0, 1)")));
-        }
-        else {
-            Assert.assertTrue("акционная цена не жирная и не красная для страницы", (firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getTagName().equals("strong")
-                    && firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getCssValue("color").equals("rgba(204, 0, 0)")));
+        if (!(driver instanceof FirefoxDriver)) {
+            Assert.assertTrue("акционная цена не жирная и не красная для страницы", firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getTagName().equals("strong"));
+            isRed(firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getCssValue("color"));
+        } else {
+            Assert.assertTrue("акционная цена не жирная и не красная для страницы", firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getTagName().equals("strong"));
+            isRed(firstGoodInBoxCampaigns.findElement(By.className("campaign-price")).getCssValue("color"));
         }
         //д) акционная цена крупнее, чем обычная (это тоже надо проверить на каждой странице независимо)
-        Assert.assertTrue(Float.valueOf(goodCampaignPriceSize)>Float.valueOf(goodRegularPriceSize));
+        Assert.assertTrue(Float.valueOf(goodCampaignPriceSize) > Float.valueOf(goodRegularPriceSize));
         firstGoodInBoxCampaigns.click();
         //сам товар в карточке
         WebElement cardOfGood = driver.findElement(By.xpath("//*[@id='box-product']"));
@@ -70,8 +83,8 @@ public class Task10 extends LoginInLitecat{
         //скидочная цена товара на странице товара
         String goodCampaignPriceCard = driver.findElement(By.className("campaign-price")).getAttribute("textContent");
 
-        String  goodRegularPriceSizeCard  = cardOfGood.findElement(By.className("regular-price")).getCssValue("font-size").replace("px","");
-        String goodCampaignPriceSizeCard  = cardOfGood.findElement(By.className("campaign-price")).getCssValue("font-size").replace("px","");
+        String goodRegularPriceSizeCard = cardOfGood.findElement(By.className("regular-price")).getCssValue("font-size").replace("px", "");
+        String goodCampaignPriceSizeCard = cardOfGood.findElement(By.className("campaign-price")).getCssValue("font-size").replace("px", "");
 
         if (driver.getTitle().startsWith(goodNameCard)) {
             //а) на главной странице и на странице товара совпадает текст названия товара
@@ -81,27 +94,25 @@ public class Task10 extends LoginInLitecat{
             Assert.assertTrue("не совпадает акционная цена", goodCampaignPrice.equals(goodCampaignPriceCard));
 
             //в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
-            if(!(driver instanceof FirefoxDriver)) {
-                Assert.assertTrue("обычная цена не зачеркнутая и не серая для карточки", (cardOfGood.findElement(By.className("regular-price")).getTagName().equals("s")
-                        && cardOfGood.findElement(By.className("regular-price")).getCssValue("color").equals("rgba(102, 102, 102, 1)")));
-            }
-            else {
-                Assert.assertTrue("обычная цена не зачеркнутая и не серая для карточки", (cardOfGood.findElement(By.className("regular-price")).getTagName().equals("s")
-                        && cardOfGood.findElement(By.className("regular-price")).getCssValue("color").equals("rgba(102, 102, 102)")));
+            if (!(driver instanceof FirefoxDriver)) {
+                Assert.assertTrue("обычная цена не зачеркнутая и не серая для карточки", cardOfGood.findElement(By.className("regular-price")).getTagName().equals("s"));
+                isGrey(cardOfGood.findElement(By.className("regular-price")).getCssValue("color"));
+            } else {
+                Assert.assertTrue("обычная цена не зачеркнутая и не серая для карточки", cardOfGood.findElement(By.className("regular-price")).getTagName().equals("s"));
+                isGrey(cardOfGood.findElement(By.className("regular-price")).getCssValue("color"));
             }
             //г) акционная жирная и красная (можно считать, что "красный" цвет это такой, у которого в RGBa представлении каналы G и B имеют нулевые значения)
             //(цвета надо проверить на каждой странице независимо, при этом цвета на разных страницах могут не совпадать)
-            if(!(driver instanceof FirefoxDriver)) {
-                Assert.assertTrue("акционная цена не жирная и не красная для карточки", (cardOfGood.findElement(By.className("campaign-price")).getTagName().equals("strong")
-                        && cardOfGood.findElement(By.className("campaign-price")).getCssValue("color").equals("rgba(204, 0, 0, 1)")));
-            }
-            else {
-                    Assert.assertTrue("акционная цена не жирная и не красная для карточки", (cardOfGood.findElement(By.className("campaign-price")).getTagName().equals("strong")
-                            && cardOfGood.findElement(By.className("campaign-price")).getCssValue("color").equals("rgba(204, 0, 0)")) );
+            if (!(driver instanceof FirefoxDriver)) {
+                Assert.assertTrue("акционная цена не жирная и не красная для карточки", cardOfGood.findElement(By.className("campaign-price")).getTagName().equals("strong"));
+                isGrey(cardOfGood.findElement(By.className("regular-price")).getCssValue("color"));
+            } else {
+                Assert.assertTrue("акционная цена не жирная и не красная для карточки", cardOfGood.findElement(By.className("campaign-price")).getTagName().equals("strong"));
+                isGrey(cardOfGood.findElement(By.className("regular-price")).getCssValue("color"));
             }
 
             //д) акционная цена крупнее, чем обычная (это тоже надо проверить на каждой странице независимо)
-            Assert.assertTrue(Float.valueOf(goodCampaignPriceSizeCard)>Float.valueOf(goodRegularPriceSizeCard));
+            Assert.assertTrue(Float.valueOf(goodCampaignPriceSizeCard) > Float.valueOf(goodRegularPriceSizeCard));
         }
 
     }
