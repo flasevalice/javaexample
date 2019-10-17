@@ -2,8 +2,9 @@ package ru.stqa.Task19;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Page {
@@ -11,15 +12,15 @@ public class Page {
     protected WebDriverWait wait;
     private int timeout = 3;
 
+    @FindBy(css = "a[href*='/']")
+    WebElement href;
+
     public Page(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, 10);
         PageFactory.initElements(driver, this);
     }
 
-    public void open(By selector){
-        driver.findElement(selector).click();
-    }
 
     public void open(){}
 
@@ -32,14 +33,7 @@ public class Page {
     }
 
 
-    protected void choiseFromSelect(By locator, int size, boolean isFirst) {
-        Select menu = new Select(driver.findElement(locator));
-        int index = (int)(Math.random()*size);
-        if (!isFirst && index==0) index++;
-        menu.selectByIndex(index);
-    }
-
     public void goToMainPage() {
-        driver.findElement(By.cssSelector("a[href*='/']")).click();
+        href.click();
     }
 }
