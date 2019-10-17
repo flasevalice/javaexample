@@ -10,8 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javaexample" target="1.5" />
-      <module name="selenium-java" target="1.5" />
+      <module name="selenium-java" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
